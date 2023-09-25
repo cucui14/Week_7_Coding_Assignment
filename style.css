@@ -1,0 +1,87 @@
+
+/* Class top nav add a background color, text color, list style, width, padding all sides, and a border radius so the corners are round. */
+.top-nav {
+    background-color: #393D3F;
+    color: #FFF;
+    list-style: none;
+    width: 140px;
+    padding: 5px;
+    border-radius: 6px;
+}
+/* Changes text color and text-decoration to inherit in order to customize all links */
+a {
+    color:inherit;
+    text-decoration: inherit;
+}
+/* Changes the font family for the whole body of the page */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FDFDFF;
+}
+/* Adds font-size, margin, border, border radius for the corners and padding on the left for the top navigation links */
+.top-nav-links {
+    font-size: 20px;
+    margin: 5px 0px;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+/* Changes the cursor and background color of the top navigation links when hovering over them */
+.top-nav-links:hover{
+    cursor: pointer;
+    background-color: #C6C5B9;
+}
+/* Adds text color, font size and changes text to uppercase for any header with this id */
+#top-header {
+    color: #546A7B;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* Adds text color and font size to any subheader with this id */
+#sub-header {
+    color: #393D3F;
+    font-size: 30px;
+}
+/* Adds a border to the table and table data that have this class */
+.main-page-table, .main-page-td {
+    border: 1px solid #546A7B;
+}
+/* Adds padding and font size to all the table data that have this class */
+.main-page-td {
+    padding: 10px;
+    font-size: 16px;
+}
+/* Adds a list style, changes display of the list items to flex and flex wrap for the unordered list that has this class which contains the cat images */
+.image-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Adds margin and border to the cat images */
+.cat-image {
+    margin: 5px;
+    border: 2px solid #62929E;
+}
+/* Adds a background color to the input text sections in the Contact Us page */
+.form-text-area {
+    background-color: #C6C5B9;
+}
+/* Adds font size and text color to the form labels in the Contact Us page */
+.form-labels {
+    font-size: 18px;
+    color: #393D3F;
+}
+/* Adds font size, border, border radius for the corners, padding, background color and text color to the form send button */
+.form-button {
+    font-size: 20px;
+    border: 1px solid #546A7B;
+    border-radius: 6px;
+    padding: 4px 30px;
+    background-color: #62929E;
+    color: #FFF;
+}
+/* Changes the background color and cursor when hovering over the send button */
+.form-button:hover {
+    background-color: #393D3F;
+    cursor: pointer;
+}

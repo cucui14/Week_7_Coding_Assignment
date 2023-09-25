@@ -5,52 +5,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <!-- document title -->
     <title>Week 7 conding assignment</title>
   </head>
   <!-- Document body -->
   <body>
     <!-- Unorder list with list items and links -->
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About Us</a></li>
-      <li><a href="/contact.html">Contact Us</a></li>
+    <ul class="top-nav">
+      <li class="top-nav-links"><a href="/index.html">Home</a></li>
+      <li class="top-nav-links"><a href="/about.html">About Us</a></li>
+      <li class="top-nav-links"><a href="/contact.html">Contact Us</a></li>
     </ul>
     <!-- Top header as h1 -->
-    <h1>The Cat page</h1>
+    <h1 id="top-header">The Cat page</h1>
     <!-- Sub header h2 -->
-    <h2>Our Cats</h2>
+    <h2 id="sub-header">Our Cats</h2>
     <!-- tablet -->
-    <table>
+    <table class="main-page-table">
       <!-- table head -->
       <thead>
         <!-- table row -->
         <tr>
           <!-- table head -->
-          <th>Black Cat</th>
+          <th class="main-page-td">Black Cat</th>
           <!-- table head -->
-          <th>White Cat</th>
+          <th class="main-page-td">White Cat</th>
           <!-- table head -->
-          <th>Orange Cat</th>
+          <th class="main-page-td">Orange Cat</th>
         </tr>
       </thead>
       <tbody>
         <!-- table row -->
         <tr>
           <!-- table data -->
-          <td>Luna</td>
+          <td class="main-page-td">Luna</td>
           <!-- table data -->
-          <td>Snuggles</td>
+          <td class="main-page-td">Snuggles</td>
           <!-- table data -->
-          <td>Garfield</td>
+          <td class="main-page-td">Garfield</td>
         </tr>
       </tbody>
     </table>
   </body>
   <!-- Unordered list with 3 list items that include an image in each of them -->
-  <ul>
+  <ul class="image-list">
     <!-- list item -->
-    <li>
+    <li class="cat-image">
       <!-- image with alt text and width set to 300px -->
       <img
         src="https://www.thesprucepets.com/thmb/-q-V9OLV1LyJrWHhjXjjvg-fhKc=/7698x0/filters:no_upscale():strip_icc()/facts-about-black-cats-554102-hero-7281a22d75584d448290c359780c2ead.jpg"
@@ -59,7 +60,7 @@
       />
     </li>
     <!-- list item -->
-    <li>
+    <li class="cat-image">
       <!-- image with alt text and width set to 300px -->
       <img
         src="https://www.thesprucepets.com/thmb/GOtxsUeyleZs9NHexGNGoPt6OGs=/1080x0/filters:no_upscale():strip_icc()/33351631_260594934684461_1144904437047754752_n-5b17d77604d1cf0037f3ea5a.jpg"
@@ -68,7 +69,7 @@
       />
     </li>
     <!-- list item -->
-    <li>
+    <li class="cat-image">
       <!-- image with alt text and width set to 300px -->
       <img
         src="https://www.rd.com/wp-content/uploads/2021/05/GettyImages-1286283054.jpg"

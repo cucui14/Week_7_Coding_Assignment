@@ -5,35 +5,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <!-- document title -->
     <title>Contact Us</title>
   </head>
   <!-- document body -->
   <body>
     <!-- Unorder list with list items and links -->
-    <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About Us</a></li>
-      <li><a href="/contact.html">Contact Us</a></li>
+    <ul class="top-nav">
+      <li class="top-nav-links"><a href="/index.html">Home</a></li>
+      <li class="top-nav-links"><a href="/about.html">About Us</a></li>
+      <li class="top-nav-links"><a href="/contact.html">Contact Us</a></li>
     </ul>
     <!-- header as an h1 -->
-    <h1>Contact Us</h1>
+    <h1 id="top-header">Contact Us</h1>
     <!-- paragraph -->
-    <p>Are we missing a cat picture you're looking for? Send us a message!</p>
+    <p class="p-description">
+      Are we missing a cat picture you're looking for? Send us a message!
+    </p>
     <!-- forme -->
     <form action="submit">
       <!-- label for full name input -->
-      <label for="fullName">Full Name</label><br />
+      <label for="fullName" class="form-labels">Full Name</label><br />
       <!-- full name text input -->
-      <input type="text" name="fullName" id="fullName" /><br />
+      <input
+        type="text"
+        name="fullName"
+        id="fullName"
+        class="form-text-area"
+      /><br />
       <!-- label for email address input -->
-      <label for="emailAddress">Email Address</label><br />
+      <label for="emailAddress" class="form-labels">Email Address</label><br />
       <!-- email addres text input -->
-      <input type="text" name="emailAddress" id="emailAddress" /><br />
+      <input
+        type="text"
+        name="emailAddress"
+        id="emailAddress"
+        class="form-text-area"
+      /><br />
       <!-- label for text area comments -->
-      <label for="comments">Comments</label><br />
+      <label for="comments" class="form-labels">Comments</label><br />
       <!-- text area for comments -->
-      <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+      <textarea
+        name="comments"
+        id="comments"
+        cols="30"
+        rows="10"
+        class="form-text-area"
+      ></textarea
+      ><br />
+      <button type="submit" class="form-button">Send</button>
     </form>
   </body>
 </html>
